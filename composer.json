@@ -1,0 +1,10 @@
+{
+    "require": {
+        "webpractik/bitrix-idehelper": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
