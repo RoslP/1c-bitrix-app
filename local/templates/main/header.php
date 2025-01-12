@@ -100,59 +100,22 @@ use Bitrix\Main\Page\Asset;
                         </div>
                     </div>
 
-                    <!-- Меню (основное) -->
-                    <div class="col-md-10 col-sm-9 col-xs-4 text-right dark-menu">
-                        <div class="header-main-menu hidden-xs">
-                            <nav id="primary-menu">
-                                <ul class="main-menu text-right">
-                                    <li>
-                                        <a href="index.html">Главная</a>
-                                    </li>
-                                    <li>
-                                        <a href="about_us.html">О нас</a>
-                                    </li>
-                                    <li>
-                                        <a href="services.html"> Услуги
-                                            <span class="indicator"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown">
-                                            <li>
-                                                <a href="services_landing.html">Лендинг</a>
-                                            </li>
-                                            <li>
-                                                <a href="services_online_shop.html">Интернет-магазин</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="portfolio.html"> Портфолио</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog.html">Блог</a>
-                                    </li>
-                                    <li>
-                                        <a href="contacts.html">Контакты</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-
-                        <!-- Поиск -->
-                        <div class="header-right">
-                            <div class="header-search">
-                                <div class="search-wrapper">
-                                    <a href="javascript:void(0);" class="search-open">
-                                        <i class="pe-7s-search"></i>
-                                    </a>
-                                    <div class="search-inside animated bounceInUp">
-                                        <i class="icon-close search-close fa fa-times"></i>
-                                        <div class="search-overlay"></div>
-                                        <div class="position-center-center">
-                                            <div class="search">
-                                                <form>
-                                                    <input type="search" placeholder="Поиск по сайту">
-                                                    <button type="submit"><i class="fa fa-search"></i></button>
-                                                </form>
-                                            </div>
+                    <!-- Поиск -->
+                    <div class="header-right">
+                        <div class="header-search">
+                            <div class="search-wrapper">
+                                <a href="javascript:void(0);" class="search-open">
+                                    <i class="pe-7s-search"></i>
+                                </a>
+                                <div class="search-inside animated bounceInUp">
+                                    <i class="icon-close search-close fa fa-times"></i>
+                                    <div class="search-overlay"></div>
+                                    <div class="position-center-center">
+                                        <div class="search">
+                                            <form>
+                                                <input type="search" placeholder="Поиск по сайту">
+                                                <button type="submit"><i class="fa fa-search"></i></button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
@@ -160,9 +123,10 @@ use Bitrix\Main\Page\Asset;
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
-    </div>
+
 
     <!-- Хлебные крошки (навигация) -->
     <div class="breadcrumb-area brand-bg ptb-100">
